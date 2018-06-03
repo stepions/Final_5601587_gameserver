@@ -5,9 +5,9 @@ var mysql = require('mysql');
 var util = require('util');
 
 var connection = mysql.createConnection({
-    host: 'ec2-18-188-133-47.us-east-2.compute.amazonaws.com',
-    user: 'root',
-    password: '032341282',
+    host: '',
+    user: '',
+    password: '',
     database: 'Redrunner'
 });
 
